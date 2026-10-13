@@ -1,0 +1,24 @@
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: var(--code-bg);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--text-h);
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.nav-link:hover {
+  background-color: var(--social-bg);
+  box-shadow: var(--shadow);
+}
